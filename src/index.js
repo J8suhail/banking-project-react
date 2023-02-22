@@ -4,6 +4,8 @@ import './index.css';
 import Header from './Header';
 import Loginbox from './Loginbox';
 import Cardsection from './Cardsection';
+import Sectiontwo from './Sectiontwo';
+import SectionThree from './SectionThree';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,8 @@ root.render(
     <Header/>
     <Loginbox/>
     <Cardsection/>
+    <Sectiontwo/>
+    <SectionThree/>
     </>
   </React.StrictMode>
 );

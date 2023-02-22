@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#cardssection {display: flex;
+  text-align: center;}
+  #cardssection img{width: 200px;
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: #1F4690;
+  color:aliceblue;
+  
+  }
+  #fabbanklogo {width: 200px;}
+  #loginbox{ background-color: rgba(13, 4, 22, 0); border-style: dotted ; border-color: white; text-align: left;  color:aliceblue;}
+  
+  
+  header a{
+      color: #1F4690;
+  
+  }
+  
+  #outerbox {display:flex;
+     align-items: center;
+    justify-content: space-evenly;
+    background-color: #1F4690;
+    color:aliceblue;
+    }
+  #section2 {
+    display:flex; }
+  #ModuleTwo{display: flex;
+    }
+  #leftContent
+  {padding: 40px;
+  }
+  #rightContent{ background-image: url('https://promotions.bankofamerica.com/content/dam/consumer-marketing/tiles/CreditCards_560x315.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 80px;
+       display: grid;
+       grid-template-columns: 100%;
+       }
+     #whiteblock{ background-color: aliceblue; padding: 30px;}
+     header{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      color: aliceblue;
+     }
+     nav a {
+      margin-left: 75px;
+      text-decoration: none;
+      font-size: large;
+      font-size: large;
+      padding: 30px;
+  
+      
+     } 
+     footer{
+      align-items: center;
+      text-align: center;
+      background-color: #1F4690;
+      text-decoration: none;
+     }
+    a{
+      color: aliceblue;
+     }
+     #footerNav 
+     {font-size: 15px;
+      margin-top: 50px;
+    
+      border-right: 1px solid rgb(5, 7, 0) ;}
+     svg{margin: 5px;}
+     footer p{color:white;}
