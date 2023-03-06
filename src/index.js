@@ -2,18 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './Header';
-import Loginbox from './Loginbox';
 import Cardsection from './Cardsection';
 import Sectiontwo from './Sectiontwo';
 import SectionThree from './SectionThree';
+import Loginform from './Loginform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <>
     <Header/>
-    <Loginbox/>
+    <section id="outerbox">
+    <Loginform/>
     <Cardsection/>
+    </section>
     <Sectiontwo/>
     <SectionThree/>
     </>

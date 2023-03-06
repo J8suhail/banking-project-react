@@ -1,6 +1,6 @@
-import IMG1 from'./image/Picture 1.PNG';
-import IMG2 from'./image/Picture 2.PNG';
-import IMG3 from'./image/Picture 3.PNG';
+import IMG1 from'./image/card1.jpg';
+import IMG2 from'./image/card2.jpg';
+import IMG3 from'./image/card3.jpg';
 
 function Cardsection(){
     return(

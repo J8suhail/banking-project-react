@@ -1,86 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: rgb(255, 255, 255);
 }
-
 #cardssection {display: flex;
-  text-align: center;}
-  #cardssection img{width: 200px;
-  margin-left: 90px;
-  margin-right: 90px;
-  background-color: #1F4690;
-  color:aliceblue;
+text-align: center;}
+#cardssection img{width: 200px;
+margin-left: 90px;
+margin-right: 90px;
+color:aliceblue;
+
+}
+#fabbanklogo {width: 200px;}
+#loginbox{ background-color: rgba(13, 4, 22, 0); border-style:double ; border-color: white; text-align: left;  color:aliceblue; padding: 30px;}
+
+
+header a{
+    color: #4a6aa7;;
+
+}
+#outerbox {display:flex;
+   align-items: center;
+  justify-content: space-evenly;
+  background-color: #4a6aa7;
+  color:rgb(240, 240, 240);
   
   }
-  #fabbanklogo {width: 200px;}
-  #loginbox{ background-color: rgba(13, 4, 22, 0); border-style: dotted ; border-color: white; text-align: left;  color:aliceblue;}
-  
-  
-  header a{
-      color: #1F4690;
-  
+#section2 {
+  display:flex; }
+#ModuleTwo{display: flex;
+  padding:80px;
   }
-  
-  #outerbox {display:flex;
-     align-items: center;
-    justify-content: space-evenly;
-    background-color: #1F4690;
-    color:aliceblue;
-    }
-  #section2 {
-    display:flex; }
-  #ModuleTwo{display: flex;
-    }
-  #leftContent
-  {padding: 40px;
-  }
-  #rightContent{ background-image: url('https://promotions.bankofamerica.com/content/dam/consumer-marketing/tiles/CreditCards_560x315.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding: 80px;
-       display: grid;
-       grid-template-columns: 100%;
-       }
-     #whiteblock{ background-color: aliceblue; padding: 30px;}
-     header{
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-      align-items: center;
-      background-color: rgb(255, 255, 255);
-      color: aliceblue;
+#leftContent
+{padding: 40px;
+}
+#rightContent{ background-image: url('https://images.unsplash.com/photo-1462206092226-f46025ffe607?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+     display: grid;
+     grid-template-columns: 100%;
      }
-     nav a {
-      margin-left: 75px;
-      text-decoration: none;
-      font-size: large;
-      font-size: large;
-      padding: 30px;
-  
-      
-     } 
-     footer{
-      align-items: center;
-      text-align: center;
-      background-color: #1F4690;
-      text-decoration: none;
-     }
-    a{
-      color: aliceblue;
-     }
-     #footerNav 
-     {font-size: 15px;
-      margin-top: 50px;
+   #whiteblock{ background-color: aliceblue; padding: 30px;}
+   .cardimg
+   {
+    height: 150px;
+    width:auto;
+    /* border-style: groove;
+    border-width: 15px; */
+   }
+   h1
+   {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .cardcontent
+   {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold ;
     
-      border-right: 1px solid rgb(5, 7, 0) ;}
-     svg{margin: 5px;}
-     footer p{color:white;}
+   }
+   header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+   }
+
+   nav a {
+    margin-left: 75px;
+    text-decoration: none;
+    font-size: large;
+    font-size: large;
+    padding: 30px;
+
+    
+   } 
+   footer{
+    align-items: center;
+    text-align: center;
+    background-color: #4a6aa7;
+    text-decoration: none;
+    padding-top: 20px;
+   }
+  a{
+    color: aliceblue;
+   }
+ .body2link
+ {color: #4a6aa7;}
+   #footerNav 
+   {font-size: 15px;
+    margin-top: 50px;
+  
+    border-right: 1px solid rgb(5, 7, 0) ;}
+   svg{margin: 5px;}
+   footer p{color:white;}
+   #leftimg
+   {
+    height: 300px;
+   }

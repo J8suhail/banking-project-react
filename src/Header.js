@@ -1,8 +1,11 @@
+import logo from'./image/logo.jpg';
+
 function Header()
 {
     return(
-<div>
-    <img id="fabbanklogo" src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2018/01/30/1087841-567333376.jpg?itok=hqq1KzpY"/>
+
+<header> 
+    <img id="fabbanklogo" src={logo}/>
           <nav>
             <a href="">Checking</a>
             <a href="">Savings</a>
@@ -10,7 +13,8 @@ function Header()
             <a href="">Auto Loans</a>
             <a href="">Better Money Habits&reg;</a>
           </nav>
-</div>
+          </header> 
+
 
     );
     
