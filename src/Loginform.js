@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
 import React from 'react';
+import Signup from './Signup';
+
 class LoginForm extends React.Component{
 
     constructor(){
@@ -28,16 +31,12 @@ class LoginForm extends React.Component{
             <section id="loginbox">
         <form action="#" name="loginForm">
           <input type="text" placeholder="Username"/><br/>
-          <input name="user_password" type="password" required minlength="10" placeholder="Password" onkeyup="validatePassword()"/><br/>
+          <input name="user_password" type="password" required minlength="10" placeholder="Password"  onChange={this.validatePassword}/><br/>
           <p>{this.state.errorMessage}</p>
           <input type="submit"/>
       </form>
   
-       
-        <a href="">Forgot ID/Password</a> <br/>
-        <a href="">Security & Help</a> <br/>
-        <a href="">Enroll</a> <br/>
-        <a href="pages/signup.html">Open an Account</a>
+        <Link to ='/Signup'> Open an Account</Link>
       </section>
       
         );
