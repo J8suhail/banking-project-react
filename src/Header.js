@@ -1,16 +1,17 @@
 import logo from'./image/logo.jpg';
+import { Link } from "react-router-dom";
 
 function Header()
 {
     return(
 
 <header> 
-    <img id="fabbanklogo" src={logo}/>
+<Link to='/'> <img id="fabbanklogo" src={logo}/></Link>
           <nav>
-            <a href="">Checking</a>
-            <a href="">Savings</a>
+          <Link to='/Dashboard'>Dashboard</Link>
+          <Link to='/Signup'>Signup</Link>
+          
             <a href="">Credit Cards</a>
-            <a href="">Auto Loans</a>
             <a href="">Better Money Habits&reg;</a>
           </nav>
           </header> 

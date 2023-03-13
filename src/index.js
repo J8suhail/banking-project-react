@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import Signup from './Signup';
 import Home from './Home';
+import Dashboard from './Dashboard';
 
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -15,6 +16,7 @@ root.render(
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Signup' element={<Signup/>}/>
+        <Route path='/Dashboard' element={<Dashboard/>}/>
     </Routes>
    </BrowserRouter>
 
