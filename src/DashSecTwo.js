@@ -17,7 +17,7 @@ render(){
                 this.setState({UserName:e.target.value})
             }} /><br/>
  <br/>
- <button>Applay Naw </button>
+ <button>Apply Now </button>
 </div>
 <div class="cardDisplay"> <img id="cardimage"  src={CardImage} alt=""/>
 <h3 class="bottom-left">{this.state.UserName}</h3></div>

@@ -62,14 +62,16 @@ class LoginForm extends React.Component{
         return(
           
             <section id="loginbox">
-        <form action="#" name="loginForm" onSubmit={this.authenticateUser} >
+        <form action="#" name="loginForm"  >
           <input type="text" placeholder="Username" onChange={(e)=>{
                                             this.setState({userName:e.target.value})
                                         }}/><br/>
           <input name="user_password" type="password" required minlength="10" placeholder="Password"  onChange={this.validatePassword}/><br/>
           <p>{this.state.errorMessage}</p>
-          <input type="submit"/>
       </form>
+      <br/>
+      <button style={{display:"block"}} type="submit" onClick={this.authenticateUser}>Login</button>
+
   <br/>
         <Link to ='/Signup'> Open an Account</Link>
       </section>

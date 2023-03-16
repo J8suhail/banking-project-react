@@ -57,6 +57,10 @@ border: none;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+#AyCard div{
+margin-right: 50px;
+}
 #AyCard input{
     padding: 7px 70px;
 }
@@ -81,4 +85,8 @@ border: none;
   }
   #cardimage{
     width: 500px;
+  }
+
+  #Camount button{
+    padding: 7px 128px;
   }
