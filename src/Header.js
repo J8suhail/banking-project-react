@@ -8,7 +8,7 @@ function Header()
 <header> 
 <Link to='/'> <img id="fabbanklogo" src={logo}/></Link>
           <nav>
-          <Link to='/Dashboard'>Dashboard</Link>
+          {/* <Link to='/Dashboard'>Dashboard</Link> */}
           <Link to='/Signup'>Signup</Link>
           
             <a href="">Credit Cards</a>

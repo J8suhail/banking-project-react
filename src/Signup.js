@@ -100,7 +100,7 @@ axios.post('https://crudcrud.com/api/a6d087ea01ba4b9682e19885fa018749/users', {n
             <input name="confirm_password" type="password" required minlength="6" placeholder="Password"  onChange={this.confirmPassword}/><br/>
                  <p>{this.state.errorMessage1}</p>
             </div>
-            <label for="Date of birth">Date of birth:</label>
+            <label id="brtdt" for="Date of birth">Date of birth:</label>
         <input type="date" input name="birthday_date" id="birthday" required onChange={(e)=>{this.setState({birthday_date:e.target.value})}}/>
         <br/>
         <br/>
